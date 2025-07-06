@@ -16,7 +16,7 @@ from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
 
 # Load data
-df = pd.read_csv(r"C:\Users\Deepali Sharma\Downloads\customer_reviews_100.csv")
+df = pd.read_csv("customer_reviews_100.csv")
 
 # Preprocessing
 stop_words = set(stopwords.words('english'))
